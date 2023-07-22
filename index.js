@@ -1,7 +1,7 @@
 import express from "express";
 const app = express();
 
-app.get('/',(req,res)=>{
+app.get('/hola',(req,res)=>{
     res.send('<h1>Juan Perez</h1>');
 })
 
